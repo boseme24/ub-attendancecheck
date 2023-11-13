@@ -1,0 +1,75 @@
+
+<html>
+<head>
+
+<title>STUDENT REGISTRATION FORM</title>
+<link rel="stylesheet" href="./signup.css">
+</head>
+
+<body>
+ 
+  <h1>STUDENT REGISTRATION FORM</h1>
+  <div class="con">
+    <form action="signup.php" method="post">
+      <table align="center" cellpadding = "10">
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="name" /></td>
+          <td>Surname</td>
+          <td><input  type="text" name="surname" /></td>
+        </tr>
+      
+      <tr>
+          <td>Guardian_name</td>
+          <td><input  type="text" name="guardianName" /></td>
+          <td>Password</td>
+          <td><input  type="password" name="password"/></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td><select name="gender">
+          <option>Male</option>
+           <option>Female</option>
+          </select></td>
+          <td>Confirm</br>password</td>
+          <td><input name="confirmPassword" type="password" /></td>
+        </tr>
+        <tr>
+          <td>Email Address</td>
+          <td colspan="4"><input name="email" type="text" size="62"></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td colspan="4"><textarea name="address" cols="53" rows="5"></textarea></td>
+        </tr>
+        <!--
+    <tr>
+          <td>City</td>
+          <td><input name="" type="text" /></td>
+          <td>State</td>
+          <td><input name="" type="text" /></td>
+        </tr>
+        <tr>
+          <td>Cuntry</td>
+          <td><input name="" type="text" /></td>
+          <td>Pin</td>
+          <td><input name="" type="text" /></td>
+        </tr>
+        
+        <tr>
+          <td></td>
+          <td colspan="4"><input type="submit" value="Submit" class="submit"></td>
+          
+        </tr>
+        -->
+        
+        
+      </table>
+      <button type="submit" name="create"  class="button">Register Now</button><a href="./login.html"><span><img src="./arrow-1.svg" width="15px" height="15px" alt=""></span>BACK</a>
+ </div>
+    </form>
+  
+ 
+ </div>
+</body>
+</html>
