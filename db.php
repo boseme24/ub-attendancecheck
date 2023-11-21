@@ -1,8 +1,8 @@
 <?php
 $servername="localhost";
-$dbusername="root";
+$dbusername="cloud";
 $dbpassword = "";
-$dbname= "students";
+$dbname= "student_signup";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
 
